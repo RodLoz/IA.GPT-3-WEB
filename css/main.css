@@ -91,7 +91,8 @@ section.destacada .contenido{
 section.destacada .contenido h1{
     padding: 30px 50px;
     border: 1px solid #fff;
-    color: #fff;
+    color: rgb(148, 0, 0);
+    font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
     margin: 0 auto;
@@ -172,6 +173,7 @@ footer p{
 
 section.informacion{
     background-color:rgba(187, 187, 187, 0.24) ;
+    font-weight: bold;
     padding: 30px 0;
 }
 
@@ -184,6 +186,41 @@ section.informacion{
     display: block;
     flex-grow: 1;
 }
+
+.formulario {     
+    background-color: #575656;
+}
+
+
+.translucent-form-overlay {
+    max-width: 500px;
+    width: 100%;
+    background-color: rgba(54, 54, 54, 0.8);
+    padding: 20px;
+    color: #161616;
+  }
+  
+  .translucent-form-overlay .columns.row {
+    display: block;
+  }
+  
+  .translucent-form-overlay h3, .translucent-form-overlay label {
+    color: #fefefe;
+  }
+   
+  .translucent-form-overlay input::-webkit-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input:-ms-input-placeholder {
+    color: #8a8a8a;
+  }
+  
+  .translucent-form-overlay input::placeholder {
+    color: #8a8a8a;
+  }
+  
+  
 
 /* ==========================================================================
    Media Queries
