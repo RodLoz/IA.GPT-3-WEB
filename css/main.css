@@ -60,8 +60,12 @@ textarea {
    ========================================================================== */
 header a.inicio{
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
+
+header a.inicio:hover{
+    color: rgb(114, 114, 245);
+} 
 
 header nav a{
     color: #fff;
@@ -72,9 +76,12 @@ header nav a{
     height: 4.2rem;
     line-height: 4.2rem;
 }
+section.destacada{
+    position: relative;
+}
 
 section.destacada .contenido{
-    top: 50%;
+    top: 70%;
     left: 0;
     width: 100%;
     position: absolute;
@@ -92,8 +99,8 @@ section.destacada .contenido h1{
 }
 
 section.agencia {
-    background-color: #ebeeed;
-    padding: 10px;
+    background-color: #ddf2f8;
+    padding: px;
 }
 
 section.agencia .borde{
@@ -104,8 +111,12 @@ section.agencia p{
     margin-bottom: 40px;
 }
 
+section.anuncio{
+      background-color: #f4f4f4;
+}
+
 section.servicios{
-    background-color: #ebeeed;
+    background-color: #ddf2f8;
     border-top: 1px solid #c2c2c2;
     border-bottom: 1px solid #c2c2c2;
     padding-top: 30px;
@@ -116,7 +127,7 @@ section.servicios small{
 }
 
 section.contacto{
-    background-color: #4f5962;
+    background-color: #5e778d;
     padding: 10px;
     color: #fff;
 }
@@ -130,6 +141,10 @@ section.contacto .button{
     border: 2px solid #fff;
     color: #fff;
     padding: 15px 50px;
+}
+
+section.contacto .button:hover{
+    background-color: #4583ca;
 }
 
 footer{
@@ -156,7 +171,18 @@ footer p{
 }
 
 section.informacion{
+    background-color:rgba(187, 187, 187, 0.24) ;
     padding: 30px 0;
+}
+
+
+.twitter-widget-0{
+    position: static;
+    visibility: visible;
+    width: 550px;
+    height: 778px;
+    display: block;
+    flex-grow: 1;
 }
 
 /* ==========================================================================
